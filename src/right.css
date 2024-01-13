@@ -1,0 +1,140 @@
+.right-page {
+  margin-left: 40px;
+}
+.right_h2 {
+  color: var(--Dark-Navy, #303b59);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 36px;
+  margin-bottom: 28px;
+}
+
+.right_li1_df {
+  display: flex;
+  border-radius: 12px;
+  padding: 18px 17px;
+  width: 290px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  cursor: pointer;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55;
+}
+.right_li2_df {
+  display: flex;
+  border-radius: 12px;
+  padding: 18px 17px;
+  width: 290px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: var(
+    --yellow-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e
+  );
+}
+.right_li3_df {
+  display: flex;
+  border-radius: 12px;
+  padding: 18px 17px;
+  width: 290px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: var(
+    --green-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f
+  );
+}
+.right_li4_df {
+  display: flex;
+  border-radius: 12px;
+  padding: 18px 17px;
+  width: 290px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: var(
+    --blue-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6
+  );
+}
+
+.right_h31 {
+  color: #f55;
+  margin-right: 81px;
+}
+.right_h32 {
+  color: #ffb21e;
+  margin-right: 81px;
+}
+.right_h33 {
+  color: #00bb8f;
+  margin-right: 81px;
+}
+.right_h34 {
+  color: #1125d6;
+  margin-right: 81px;
+}
+.num_rgh {
+  color: var(--Dark-Navy, #303b59);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.num_rgh_100 {
+  color: var(--Dark-Navy, #303b59);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.button {
+  color: var(--White, #fff);
+  margin-top: 44px;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 288px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 128px;
+  background: var(--Dark-Navy, #303b59);
+  cursor: pointer;
+}

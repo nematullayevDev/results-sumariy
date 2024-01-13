@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background: var(--Very-Light-blue, #ecf2ff);
+}
+
+.container {
+  width: 730px;
+  height: 512px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 32px;
+  background-color: #fff;
+  margin-top: 120px;
+  display: flex;
+}
+
+.left_page {
+  width: 366px;
+  height: inherit;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  text-align: center;
+  align-items: center;
+  border-radius: 32px;
+}
+.left_h2 {
+  padding-top: 38px;
+  color: var(--Light-Blue, #cac9ff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.left_icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.left_num {
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  padding-top: 55px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px; /* 100% */
+}
+
+.left_num_of {
+  color: var(--Light-Blue, #cac9ff);
+  font-feature-settings: "clig" off, "liga" off;
+  margin-top: 4px;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-L {
+  width: 256px;
+  height: 134px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.left_footer {
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+.left_footer_p {
+  color: var(--Light-Blue, #cac9ff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 55px;
+}
